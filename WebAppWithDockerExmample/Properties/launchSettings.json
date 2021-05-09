@@ -15,12 +15,20 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebAppWithDockerExmample": {
+    "WebAppWithDockerExmample-Development": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "applicationUrl": "https://localhost:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WebAppWithDockerExmample-Production": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://0.0.0.0:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     }
   }
